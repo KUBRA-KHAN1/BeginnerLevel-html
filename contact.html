@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <hr>
+    <form action="#"  method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">FullName</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="abc001@gmail.com" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" max="100" min="1">
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <p>Select Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Prefer not to say</label>
+            <br><br>
+            <label for="subject">Select Subject:</label>
+            <select  id="subject" name="subject">
+                <option value="html">HTML</option>
+                <option value="networking">Networking</option>
+                <option value="other">Other</option>
+            </select>
+            <BR><BR>
+            <label for="color">Favourite Color:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <label for="picture">Upload proflie picture</label>
+            <input type="file" name="picture" id="picture">
+            <br><br>
+            <label for="message">Your Message</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30"
+            placeholder="Write your  message here" ></textarea>
+            <br><br>
+        </fieldset>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the tems and conditions.</label>
+        <br><br>
+        <button type="submit">Submit Form</button>
+        <button type="reset">Reset Form</button>
+    </form>
+    <br>
+    <footer><pre>           Copyright &copy; 2026 My Portfolio</pre></footer>
+    
+</body>
+</html>
