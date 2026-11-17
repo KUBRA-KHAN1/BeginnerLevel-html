@@ -21,8 +21,6 @@ The purpose of this project is to practice HTML concepts from basic to intermedi
 Note: This project is created using HTML only. No CSS or JavaScript is used.
 
 # Screenshots
-# Main
-![Main](screenshot1.png)
 # Home
 ![Home](screenshot2.png)
 # About me
