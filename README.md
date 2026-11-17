@@ -22,7 +22,8 @@ Note: This project is created using HTML only. No CSS or JavaScript is used.
 
 # Screenshots
 
-screenshot1.png
+# Home
+![Home](screenshot1.png)
 screenshot2.png
 screenshot3.png
 screenshot4.png
